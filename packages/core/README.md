@@ -1,15 +1,15 @@
-# @stitches/core
+# @volue/stitches-core
 
-**@stitches/core** is a framework-agnostic implementation of [stitches](https://stitches.dev), a CSS-in-JS library with a best-in-class developer experience.
+**@volue/stitches-core** is a framework-agnostic implementation of [stitches](https://stitches.dev), a CSS-in-JS library with a best-in-class developer experience.
 
 <p><br /></p>
 
 ```sh
 # with npm
-npm install @stitches/core
+npm install @volue/stitches-core
 
 # with yarn
-yarn add @stitches/core
+yarn add @volue/stitches-core
 ```
 
 <p><br /></p>
@@ -21,7 +21,7 @@ yarn add @stitches/core
 ```html
 <script type="module">
 
-import { css } from 'https://cdn.skypack.dev/@stitches/core'
+import { css } from 'https://cdn.skypack.dev/@volue/stitches-core'
 
 </script>
 ```
@@ -33,7 +33,7 @@ import { css } from 'https://cdn.skypack.dev/@stitches/core'
 <br />
 
 ```js
-<script src="https://unpkg.com/@stitches/core/dist/index.global.js"></script>
+<script src="https://unpkg.com/@volue/stitches-core/dist/index.global.js"></script>
 <script>
 
 const { css } = stitches
