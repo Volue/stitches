@@ -1,6 +1,6 @@
 {
   "name": "@volue/stitches-react",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "The modern CSS-in-JS library",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
@@ -19,6 +19,9 @@
       "types": "./types/index.d.ts",
       "require": "./dist/index.cjs",
       "import": "./dist/index.mjs"
+    },
+    "./types/*": {
+      "types": "./types/*.d.ts"
     },
     "./global": "./dist/index.global.js"
   },
